@@ -86,12 +86,12 @@ public class FactoryMethod {
 
     public void mainMenu() {
         Scanner s = new Scanner(System.in);
-        System.out.println("Welcome to the game.");
+        System.out.println("");
         System.out.println("Choose map (city / wilderness): ");
         String choice = s.nextLine();
 
         Map gameMap = createMap(choice);
-        System.out.println("\nGenerated Map:");
+        System.out.println("");
         gameMap.display(5);
 
         s.close();

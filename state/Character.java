@@ -3,9 +3,9 @@ package state;
 import java.util.Scanner;
 
 public class Character {
-    private String name;
-    private int    exp;
-    private int    hp;
+    private String  name;
+    private int      exp;
+    private int       hp;
     private State  state;
 
     public static final int NOVICE_THRESHOLD       =  5;

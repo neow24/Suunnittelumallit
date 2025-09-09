@@ -14,10 +14,10 @@ public class Main {
         .setNext(suggestionHandler).setNext(feedbackHandler);
 
         List<Message> messages = Arrays.asList(
-            new Message(MessageType.COMPENSATION, "I want a refund for my last purchase.", "john@example.com"),
-            new Message(MessageType.CONTACT, "Please call me regarding my subscription.", "sara@example.com"),
-            new Message(MessageType.SUGGESTION, "It would be great to have dark mode.", "alex@example.com"),
-            new Message(MessageType.FEEDBACK, "I love the new update!", "maria@example.com")
+            new Message(MessageType.COMPENSATION, "I want a refund for my last purchase.",     "john@example.com"),
+            new Message(MessageType.CONTACT,      "Please call me regarding my subscription.", "sara@example.com"),
+            new Message(MessageType.SUGGESTION,   "It would be great to have dark mode.",      "alex@example.com"),
+            new Message(MessageType.FEEDBACK,     "I love the new update!",                    "amet@example.com")
         );
 
         for (Message msg : messages) {

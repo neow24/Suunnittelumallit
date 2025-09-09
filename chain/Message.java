@@ -2,8 +2,8 @@ package chain;
 
 class Message {
     private MessageType msgType;
-    private String content;
-    private String senderEmail;
+    private String      content;
+    private String  senderEmail;
 
     public Message(MessageType msgType, String content, String senderEmail) {
         this.msgType     =     msgType;

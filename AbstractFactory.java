@@ -8,6 +8,7 @@ abstract class UIFactory {
 }
 
 class ButtonA    extends Button    {
+    @SuppressWarnings("unused")
     private String text;
 
     public ButtonA(String text) { this.text = text; }
@@ -19,6 +20,7 @@ class ButtonA    extends Button    {
 }
 
 class TextFieldA extends TextField {
+    @SuppressWarnings("unused")
     private String text;
 
     public TextFieldA(String text) { this.text = text; }
@@ -30,6 +32,7 @@ class TextFieldA extends TextField {
 }
 
 class CheckboxA  extends Checkbox  {
+    @SuppressWarnings("unused")
     private String text;
 
     public CheckboxA(String text) { this.text = text; }
@@ -58,6 +61,7 @@ class UIFactoryA extends UIFactory {
 }
 
 class ButtonB    extends Button    {
+    @SuppressWarnings("unused")
     private String text;
 
     public ButtonB(String text) { this.text = text; }
@@ -69,6 +73,7 @@ class ButtonB    extends Button    {
 }
 
 class TextFieldB extends TextField {
+    @SuppressWarnings("unused")
     private String text;
 
     public TextFieldB(String text) { this.text = text; }
@@ -80,6 +85,7 @@ class TextFieldB extends TextField {
 }
 
 class CheckboxB  extends Checkbox  {
+    @SuppressWarnings("unused")
     private String text;
 
     public CheckboxB(String text) { this.text = text; }

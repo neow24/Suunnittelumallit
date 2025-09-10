@@ -14,13 +14,12 @@ public class UniversityDegree {
         // } else {
         //     return -1;
         // }
-
-        switch (s) {
-            case "BSc": return  4;
-            case "MSc": return  6;
-            case "PhD": return  3;
-            default:    return -1;
-        }
+        return switch (s) {
+            case "BSc" -> 4;
+            case "MSc" -> 6;
+            case "PhD" -> 3;
+            default -> -1;
+        };
     }
 
     public static void main(String[] args) {

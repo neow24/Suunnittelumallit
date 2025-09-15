@@ -15,6 +15,6 @@ public class TemperatureConverter {
     }
 
     public static void main(String[] args) {
-        //
+        System.out.println((char) fahrenheitToCelcius(1));
     }
 }

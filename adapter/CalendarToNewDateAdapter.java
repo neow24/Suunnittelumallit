@@ -35,9 +35,6 @@ public class CalendarToNewDateAdapter implements NewDateInterface {
 
     @Override public void advanceDays(int days) {
         calendar.add(Calendar.DAY_OF_MONTH, days);
-        // this.day = calendar.get(Calendar.DAY_OF_MONTH);
-        // this.month = calendar.get(Calendar.MONTH) + 1;
-        // this.year = calendar.get(Calendar.YEAR);
     }
 
     @Override public String toString() {

@@ -4,8 +4,8 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
 public class ColorBox {
-    private int id;
-    private Controller controller;
+    // private int id;
+    // private Controller controller;
 
     private Rectangle rectangle;
     private Color[] colors = {Color.RED, Color.BLUE, Color.YELLOW};

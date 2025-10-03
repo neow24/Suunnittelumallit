@@ -13,14 +13,14 @@ public class Main {
             f.getAttributeValueFromJson(
                 "https://api.chucknorris.io/jokes/random",
                 "value"
-            ) + "\n"
+            )
         );
 
         System.out.println(
             f.getAttributeValueFromJson(
                 "https://api.fxratesapi.com/latest",
                 "rates"
-            ) + "\n"
+            )
         );
     }
 }

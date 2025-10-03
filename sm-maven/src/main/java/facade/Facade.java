@@ -13,7 +13,7 @@ public class Facade {
 
     synchronized String getAttributeValueFromJson(String urlString, String attributeName)
     throws org.json.simple.parser.ParseException, IOException {
-        return jsonParser.extractFromJson(
+        return "\n" + jsonParser.extractFromJson(
             apiClient.getJsonFromApi(urlString), attributeName
         );
     }

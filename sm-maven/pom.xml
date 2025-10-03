@@ -104,6 +104,15 @@
             </execution>
           </executions>
         </plugin>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.1.0</version>
+            <configuration>
+                <mainClass>mediator.Main</mainClass>
+                <commandlineArgs></commandlineArgs>
+            </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
